@@ -1,0 +1,18 @@
+@import 'variables';
+
+.card-text {
+    $line-number: 5;
+    $line-height: 20px;
+    line-height: $line-height;
+    height: $line-number * $line-height;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: $line-number;
+}
+
+.user-avatar {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
